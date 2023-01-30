@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="product_student_reg_service" model="product.template">
+            <field name="name">Student Registartion Service</field>
+            <field name="detailed_type">service</field>
+        </record>
+
+    </data>
+</odoo>
