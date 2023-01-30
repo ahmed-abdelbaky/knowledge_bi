@@ -1,0 +1,14 @@
+
+<odoo>
+        <menuitem id="registration_menuitem" name="Registration"/>
+       <menuitem id="student_registration" name="Student Registration"
+                 parent="registration_menuitem"
+                 action="student_registration_windows"
+                 groups="manager_security_group"
+       />
+        <menuitem id="active_student" name="Students"
+                  parent="registration_menuitem"
+                  action="partner_action"/>
+
+
+</odoo>
